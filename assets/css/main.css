@@ -1331,66 +1331,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
 }
 
-/* Subscribe Form */
-#subscribe {
-  background: #f2f2f2;
-}
 
-.subscribe-inner {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.subscribe-inner .subscribe-title {
-  font-size: 36px;
-  margin-bottom: 30px;
-}
-
-.subscribe-inner p {
-  color: #888;
-  margin-bottom: 30px;
-}
-
-.subscribe-inner .sub-btn {
-  margin: 0;
-  width: 12rem;
-  padding: 18px 40px;
-  min-width: 12rem;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
-
-.subscribe-inner .sub-btn i {
-  margin-right: 5px;
-}
-
-.subscribe-inner .form-control {
-  position: relative;
-  background: #fff;
-  border: 1px solid #E91E63;
-  border-radius: 0px;
-  box-shadow: none;
-  color: #888999;
-  height: 55px;
-  margin-right: -1px;
-  width: 90%;
-}
-
-.subscribe-inner .form-control:focus {
-  color: #212121;
-  background-color: #fff;
-  border-color: #E91E63;
-  outline: 0;
-}
-
-.subscribe-inner .form-inline {
-  position: relative;
-  margin-bottom: 30px;
-  margin: 0 auto;
-  width: 100%;
-}
 
 /* Contact Forme */
 #google-map-area {
@@ -1483,7 +1424,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Footer Area Start */
 .footer-area {
-  background: #222222;
+  background: #330033;
 }
 
 .footer-area h3 {
@@ -1538,23 +1479,23 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .footer-area .footer-social li .facebook:hover {
-  background: #3B5998;
+  background: #ff0066;
 }
 
 .footer-area .footer-social li .twitter:hover {
-  background: #00aced;
+  background: #ff0066;
 }
 
 .footer-area .footer-social li .linkedin:hover {
-  background: #0073b1;
+  background: #ff0066;
 }
 
 .footer-area .footer-social li .foursqare:hover {
-  background: #25a0ca;
+  background: #ff0066;
 }
 
 .footer-area .footer-social li .google-plus:hover {
-  background: #d34836;
+  background: #ff0066;
 }
 
 .footer-area .footer-text p {
@@ -1576,79 +1517,14 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #E91E63;
 }
 
-.image-list {
-  padding: 0;
-  margin: 0;
+.footer-area .contact-text li a:hover {
+  color: #ff0066 !important;
+  cursor: pointer;
 }
 
-.image-list li {
-  margin-bottom: 15px;
-  display: inline-block;
-}
-
-.image-list li .overlay {
-  float: left;
-  width: 70px;
-  height: 60px;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  margin: 0;
-}
-
-.image-list li .overlay:hover figcaption {
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
-}
-
-.image-list .post-content {
-  margin-left: 85px;
-  margin-bottom: 0;
-}
-
-.image-list .post-content .post-title {
-  margin-bottom: 5px;
-  font-weight: 500;
-  font-size: 15px;
-  margin: 0;
-}
-
-.image-list .post-content .post-title a {
-  color: #fff;
-}
-
-.image-list .post-content .post-title a:hover {
-  color: #E91E63;
-}
-
-.image-list .post-content .meta {
-  color: #999;
-}
-
-.image-list .post-content .meta span {
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 18px;
-  margin-bottom: 10px;
-}
-
-.newsletter-wrapper .form-group {
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.newsletter-wrapper .form-group input {
-  display: inline-block;
-  color: #fff;
-  position: relative;
-}
-
-.newsletter-wrapper .sub-btn {
-  position: absolute;
-  top: 0;
-  right: 0px;
-  border-radius: 0;
-  padding: 10px 20px;
+.footer-area .contact-text li a:hover .contact-icon{
+  color: #ff0066 !important;
+  cursor: pointer;
 }
 
 .widget {
@@ -1661,23 +1537,25 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
 }
 
-#copyright {
-  background: #0b0b0b;
-  text-align: center;
-}
-
-#copyright p {
-  line-height: 42px;
+.contact-text{
   color: #fff;
-  margin: 0;
+  font-size: 14px;
 }
 
-#copyright p a {
+.contact-icon{
   color: #fff;
+  font-size: 14px;
 }
 
-#copyright p a:hover {
-  color: #E91E63;
+
+.devide-line{
+  height: .5px;
+  background-color: #ccc;
+  border: none;
+}
+
+.footer-padding{
+  padding: 60px 0 30px 0;
 }
 
 /* ==========================================================================
@@ -1987,3 +1865,4 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-weight: bolder;
 
 }
+
