@@ -31,6 +31,20 @@
   #sponsors .spnsors-logo img {
     width: 80%;
   }
+  .mobile-cover{
+    display: none !important;
+  }
+  .pc-cover{
+    display: block !important;
+  }
+}
+@media (min-width: 1199px)  {
+  .mobile-cover{
+    display: none !important;
+  }
+  .pc-cover{
+    display: block !important;
+  }
 }
 
 /* tablets */
@@ -93,6 +107,12 @@
   .footer-area h3 {
     margin-top: 30px;
   }
+  .mobile-cover{
+    display: none !important;
+  }
+  .pc-cover{
+    display: block !important;
+  }
 }
 
 /* only small tablets */
@@ -150,6 +170,12 @@
   }
   .footer-area h3 {
     margin-top: 30px;
+  }
+  .mobile-cover{
+    display: none !important;
+  }
+  .pc-cover{
+    display: block !important;
   }
 }
 
@@ -251,6 +277,12 @@
   .padding-none:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
+  .pc-cover{
+    display: none !important;
+  }
+  .mobile-cover{
+    display: block !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -288,5 +320,10 @@
     width: 200px;
     height: 200px;
   }
-  
+  .pc-cover{
+    display: none !important;
+  }
+  .mobile-cover{
+    display: block !important;
+  }
 }
