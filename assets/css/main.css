@@ -43,6 +43,19 @@ html {
 
 /* end of the about section css */
 
+/* challenges section */
+
+@media (max-width: 476px) {
+  #descriptionChalleges {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    padding-bottom: 20px;
+  }
+}
+
+/* challenges section end */
+
 body {
   background: #fff;
   font-size: 15px;
