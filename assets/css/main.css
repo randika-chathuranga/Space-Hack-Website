@@ -1124,6 +1124,7 @@ a.back-to-top:focus {
   margin: 0 0 7px 0;
 }
 .main-timeline .description {
+  font-family: "Lato", sans-serif;
   color: #222;
   font-size: 15px;
   letter-spacing: 1px;
@@ -1829,7 +1830,7 @@ a.back-to-top:focus {
 }
 
 #main-slide .carousel-item .carousel-caption .heading {
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;

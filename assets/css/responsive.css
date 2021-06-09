@@ -53,7 +53,7 @@
     top: 32%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+    font-size: 24px !important;
   }
   #main-slide .carousel-item .carousel-caption p {
     font-size: 13px;
@@ -121,7 +121,7 @@
     top: 32%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+    font-size: 24px !important;
   }
   #main-slide .carousel-item .carousel-caption p {
     font-size: 13px;
@@ -191,7 +191,7 @@
     top: 22%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 14px;
+    font-size: 24px !important;
     margin-top: 5px;
   }
   #main-slide .carousel-item .carousel-caption p {
@@ -287,6 +287,7 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   #main-slide .carousel-item .carousel-caption .heading {
+    font-size: 24px !important;
     letter-spacing: 0;
   }
   #main-slide .carousel-item .carousel-caption p {
