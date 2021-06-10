@@ -1868,7 +1868,7 @@ a.back-to-top:focus {
 }
 
 #main-slide .carousel-caption .btn {
-  margin: 25px 25px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
 #main-slide .carousel-control-next,
@@ -1933,4 +1933,5 @@ a.back-to-top:focus {
 .logo-text {
   color: #e91e63;
   font-weight: bolder;
+  font-size:larger !important;
 }
