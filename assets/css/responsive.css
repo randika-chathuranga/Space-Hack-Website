@@ -118,7 +118,7 @@
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #main-slide .carousel-caption {
-    top: 32%;
+    top: 20%;
   }
   #main-slide .carousel-item .carousel-caption .heading {
     font-size: 24px !important;
@@ -176,6 +176,7 @@
   }
   .pc-cover{
     display: block !important;
+   
   }
 }
 
@@ -282,6 +283,10 @@
   }
   .mobile-cover{
     display: block !important;
+  }
+  .img-event-partner{
+    width: 200px ;
+    height: 25px;
   }
 }
 
