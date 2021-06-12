@@ -45,10 +45,13 @@ html {
 
 /* organize section */
 
-#organize .container {
+#organize {
   background-color: #330033;
-  padding-top: 10px;
+}
+
+#organize .container {
   padding-bottom: 10px;
+  padding-top: 30px;
   vertical-align: middle;
 }
 #organize .container .row{
