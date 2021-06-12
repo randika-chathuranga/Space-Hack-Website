@@ -1935,3 +1935,10 @@ a.back-to-top:focus {
   font-weight: bolder;
   font-size:larger !important;
 }
+
+
+
+/* cover image */
+.pc-cover{
+  top: -90px !important;
+}
