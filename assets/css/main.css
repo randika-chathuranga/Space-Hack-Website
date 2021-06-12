@@ -1034,6 +1034,49 @@ a.back-to-top:focus {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
+.event-partner-title{
+  color: #212121;
+  line-height: 52px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.event-partner-title:before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  bottom: 8px;
+  width: 48px;
+  height: 1px;
+  background-color: #e91e63;
+}
+
+.event-partner-title:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 2px;
+  width: 48px;
+  height: 1px;
+  background-color: #e91e63;
+}
+
+.event-partner-title:before,
+.event-partner-title:after {
+  left: 50%;
+  margin-left: -45px;
+}
+
+.event-partner-title:after {
+  margin-left: -30px;
+}
+
+
+
 /* Schedule Area */
 .main-timeline {
   font-family: "Roboto", sans-serif;
@@ -1770,6 +1813,36 @@ a.back-to-top:focus {
 .time-countdown {
   margin: 15px 0px 50px 0;
 }
+.heading-count:before {
+  position: absolute;
+  content: "";
+  left: 15px;
+  bottom: 8px;
+  width: 48px;
+  height: 1px;
+  background-color: #e91e63;
+}
+
+.heading-count:after {
+  position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 2px;
+  width: 48px;
+  height: 1px;
+  background-color: #e91e63;
+}
+
+.heading-count:before,
+.heading-count:after {
+  left: 50%;
+  margin-left: -45px;
+}
+
+.heading-count:after {
+  margin-left: -30px;
+}
+
 
 /* Pricing Ticket */
 .gold {
@@ -1942,3 +2015,4 @@ a.back-to-top:focus {
 .pc-cover{
   top: -90px !important;
 }
+
