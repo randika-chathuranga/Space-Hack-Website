@@ -43,6 +43,23 @@ html {
 
 /* end of the about section css */
 
+/* organize section */
+
+#organize .container {
+  background-color: #330033;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  vertical-align: middle;
+}
+#organize .container .row{
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* organize section end */
+
 /* challenges section */
 
 @media (max-width: 476px) {
