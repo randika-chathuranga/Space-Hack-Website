@@ -284,10 +284,14 @@
   .mobile-cover{
     display: block !important;
   }
+  .event-partner-title{
+    font-size: 22px;
+  }
   .img-event-partner{
-    width: 200px ;
+    width: 178px ;
     height: 25px;
   }
+  
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
